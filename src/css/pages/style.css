@@ -1,0 +1,67 @@
+@import '../root/colors.css';
+@import '../root/font.css';
+@import '../root/sizes.css';
+
+
+.pages {
+height: auto;
+overflow-x: hidden;
+}
+
+.pages .page {
+    height: 100vh;
+    background-color: var( --backgroundColor);
+    
+}
+
+.aboutMePage .pageHeader  {
+    position: relative;
+    left: 17.5vw;
+    top: 10vh;
+    width: var(--ws-xxl);
+   
+}
+
+.experiencePage .pageHeader {
+    position: relative;
+    left: 25vw;
+    top: 10vh;
+    width: var(--ws-xxl); 
+}
+
+.pageHeader-label {
+color: var(--lightBlueColor);
+font-family: "Inter", sans-serif;
+display: inline-flex;
+font-size: var(--fz-xxl);
+}
+
+.pageHeader-name {
+    color: var(--fontWhiteColor);
+    font-family: "Inter", sans-serif;
+display: inline-flex;
+font-size: var(--fz-pageHeader);
+padding-left: var(--p-xxs);
+font-weight: var(--fw-lg);
+}
+
+.pageHeader-horizontal {
+  
+   display: inline-flex;
+   border-top: 1px solid var(--fontWhiteColor);
+   width: var(--ws-xxs);
+   position: relative;
+   bottom: var(--p-xs);
+}
+
+.aboutMePage .pageContent  {
+    position: relative;
+    top: 17.5vh;
+    left: 15vw;
+}
+
+.experiencePage .pageContent {
+    position: relative;
+    top: 15vh;
+    left: 25vw;
+}

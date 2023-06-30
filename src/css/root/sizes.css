@@ -1,0 +1,60 @@
+:root {
+
+  /* Heights */
+ --h-30: 30px;
+  --h-extraSmall: 200px;
+  --h-xxs: 300px;
+    --h-xs: 340px;
+    --h-sm: 380px;
+    --h-md: 460px;
+    --h-lg: 580px;
+    --h-xl: 700px;
+    --h-xxl: 860px;
+
+  /* Widths */
+  --ws-100: 100px;
+--ws-extraSmall: 200px;
+  --ws-xxs: 300px;
+    --ws-xs: 340px;
+    --ws-sm: 380px;
+    --ws-md: 460px;
+    --ws-lg: 580px;
+    --ws-xl: 700px;
+    --ws-xxl: 860px;
+
+    /* Line Heights */
+--lh-extraSmall: 5px;
+    --lh-xxs: 10px;
+    --lh-xs: 20px;
+    --lh-sm: 30px;
+    --lh-md: 40px;
+    --lh-lg: 60px;
+    --lh-xl: 80px;
+    --lh-xxl: 110px;
+
+    /* Padding */
+  
+    --p-xxs: 5px;
+    --p-xs: 10px;
+    --p-sm: 15px;
+    --p-md: 20px;
+    --p-md-lg: 25px;
+    --p-lg: 30px;
+  
+    --p-xl: 50px;
+    --p-xxl: 80px;
+    --p-start: 150px; 
+    --p-extraLines: 105px;
+    --p-nav: 700px;
+   
+    /* Border Radius */
+    --br-xxs: 5px;
+    --br-xs: 10px;
+    --br-sm: 15px;
+    --br-md: 20px;
+    --br-lg: 30px;
+   
+    --br-xl: 40px;
+    --br-xxl: 50px;
+  }
+  

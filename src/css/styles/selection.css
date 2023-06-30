@@ -1,0 +1,14 @@
+@import '../root/colors.css';
+@import '../root/font.css';
+@import '../root/sizes.css';
+
+::selection {
+    color: var(--selectionColor);
+    background-color: var(--selectionBackgroundColor);
+}
+
+::-moz-selection {
+    color: var(--selectionColor);
+    background-color: var(--selectionBackgroundColor);
+}
+

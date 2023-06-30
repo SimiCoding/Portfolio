@@ -1,0 +1,64 @@
+@import '../../root/colors.css';
+@import '../../root/font.css';
+@import '../../root/sizes.css';
+
+.fixedLines {
+    position: fixed;
+    width: 99vw;
+}
+
+.FixedHorizontalLeft {
+    position: fixed;
+    color: var(--fontGreyColor);
+    font-size: var(--fz-lines);
+    bottom: -1vh;
+    left: var(--p-lg);
+    font-weight: 0;
+}
+.FixedHorizontalRight {
+    position: fixed;
+    color: var(--fontGreyColor);
+    font-size: var(--fz-lines);
+    bottom: -1vh;
+    right: var(--p-lg);
+    
+    font-weight: 0;
+}
+.lineItemsElementRight  {
+    font-size: var(--fz-sm);
+    
+    transform: rotate(90deg);
+    position: relative;
+    bottom: var(--p-lg);
+    right: calc(0px - var(--p-extraLines));
+    color: var(--fontGreyColor);
+    font-size: var(--fz-sm);
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--fw-sm);
+
+}
+
+
+
+.lineItemsElementLeft  {
+    font-size: var(--fz-sm);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(var(--p-xxs));
+    transition: all 0.5s;
+}
+
+
+.lineItemLeftIcon {
+
+    transform: translateY(var(--p-xxs));
+    transition: all 0.5s;
+    }
+
+.lineItemLeftIcon:hover {
+color: var(--lightBlueColor);
+transform: translateY(calc(0px - var(--p-xxs)));
+transition: all 0.5s;
+}

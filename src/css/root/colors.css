@@ -1,0 +1,11 @@
+:root {
+    --backgroundColor: #0a192f;
+    --backgroundLightColor: rgb(20, 46, 86);
+    --lightBlueColor: #64ffda;
+    --importantWhiteColor: #ccd6f6;
+    --fontWhiteColor: #b8becd; /*#9399a8*/
+    --fontGreyColor: #9399a8;
+    --selectionColor: black;
+    --selectionBackgroundColor:#64ffda;
+    --liquidColor: #24d3aab7; /* #4973ff;*/
+}
