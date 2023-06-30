@@ -1,0 +1,57 @@
+@import '../../root/colors.css';
+@import '../../root/font.css';
+@import '../../root/sizes.css';
+
+.exp-headings {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: var(--p-sm);
+    text-align: center;
+    
+}
+
+.exp-heading {
+    color: var(--fontWhiteColor);
+    font-family: "Inter", sans-serif;
+    font-size: var(--fz-lg);
+    
+    width: var(--ws-100);
+    border-left: 1px solid var(--backgroundLightColor);
+    height: var(--h-30);
+    text-align: center;
+    transition: all 0.5s;
+  
+
+}
+.exp-heading:hover {
+    background-color: var(--backgroundLightColor);
+}
+
+.exp-selected {
+   
+    border-color:var(--lightBlueColor);
+    transition: all 0.5s;
+}
+
+.exp-content {
+    position: relative;
+    left: 10vw;
+    bottom: 17.5vh;
+    width: 40vw;
+}
+
+.exp-Header {
+    color: var(--fontWhiteColor);
+    font-size: var(--fz-xxl);
+    font-weight: var(--fw-lg);
+    font-family: "Inter", sans-serif;
+}
+.exp-text {
+    padding-top: var(--p-md);
+    color: var(--fontWhiteColor);
+    font-family: "Inter", sans-serif;
+    font-weight: var(--fw-sm);
+font-size: var(--fz-xl);
+line-height: var(--lh-sm);
+}

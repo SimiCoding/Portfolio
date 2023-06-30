@@ -1,0 +1,28 @@
+@import '../../root/colors.css';
+@import '../../root/font.css';
+@import '../../root/sizes.css';
+
+
+.amp-text {
+    color: var(--fontGreyColor);
+    font-size: var(--fz-lg);
+    width: var(--ws-lg);
+    font-family: "Inter", sans-serif;
+    line-height: var(--lh-sm);
+}
+
+.amp-tech-list {
+position: relative;
+left: var(--p-md);
+display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+}
+
+.amp-tech-element {
+    color: var(--fontGreyColor);
+    font-size: var(--fz-lg);
+    font-family: "Inter", sans-serif;
+    list-style-type: circle;
+    line-height: var(--lh-sm);
+} 
+
