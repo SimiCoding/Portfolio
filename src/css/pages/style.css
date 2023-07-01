@@ -29,6 +29,13 @@ overflow-x: hidden;
     width: var(--ws-xxl); 
 }
 
+.projectPage .pageHeader {
+    position: relative;
+    left: 15vw;
+    top: 15vh;
+    width: var(--ws-xxl); 
+}
+
 .pageHeader-label {
 color: var(--lightBlueColor);
 font-family: "Inter", sans-serif;
@@ -64,4 +71,9 @@ font-weight: var(--fw-lg);
     position: relative;
     top: 15vh;
     left: 25vw;
+}
+
+.projectPage .pageContent {
+    position: relative;top: 15vh;
+    left: 15vw;
 }

@@ -1,8 +1,9 @@
 @import '../root/colors.css';
 @import '../root/font.css';
 @import '../root/sizes.css'; 
-/* How can i let a div slide out of the top when i set the visibillity to hidden?*/
+
 .navbar {
+
     position: fixed;
     background-color: var(--backgroundColor);
     width: 100vw;

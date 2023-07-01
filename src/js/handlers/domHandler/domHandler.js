@@ -22,6 +22,11 @@ function addEventListeners(state) {
     mainPage();
 
     experiencePage();
+
+    // Fix Navbar at reload of the website: 
+    window.scrollTo({
+      top:100,
+    });
   }
 }
 

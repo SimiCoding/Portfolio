@@ -37,8 +37,9 @@
 .exp-content {
     position: relative;
     left: 10vw;
-    bottom: 17.5vh;
+    bottom: 12.5vh;
     width: 40vw;
+    height: 20vh;
 }
 
 .exp-Header {

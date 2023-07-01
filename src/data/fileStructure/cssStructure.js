@@ -56,4 +56,9 @@ file: "button.css",
 folder: "pages/experiencePage/",
 file: "style.css",
   },
+  // Project Page
+  {
+folder: "pages/projectPage/",
+file: "style.css",
+  },
 ];

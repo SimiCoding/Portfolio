@@ -18,8 +18,15 @@ elements.forEach(element => {
         } else if(element.innerText==="TimTube") {
             expHeader.innerHTML = experienceTextData.timTubeHeader;
             expText.innerHTML = experienceTextData.timTubeText;
+        } else if(element.innerText === "Other"){
+            expHeader.innerHTML=experienceTextData.otherHeader;
+            expText.innerHTML=experienceTextData.otherText;
         }
-        
+         
     });
+
 });
+expHeader.innerHTML= experienceTextData.milratoHeading;
+expText.innerHTML = experienceTextData.milratoText;
+
 }

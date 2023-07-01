@@ -73,13 +73,23 @@ currentState="nav-scrollUp";
 
       aboutMe.addEventListener("click", function(){
 window.scrollTo({
-  top: 600,
+  top: 650,
   behavior: "smooth",
 });
 
 
 
+
       });
+      
+const experience = document.querySelector(".nav-exp");
+
+experience.addEventListener("click", function(){
+window.scrollTo({
+  top: 1300,
+  behavior: "smooth",
+});
+});
 }
 
 

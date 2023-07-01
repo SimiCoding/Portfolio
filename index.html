@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio</title>
+        <title></title>
         <!-- Others -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <script defer src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
         <!-- Required for File Handling -->
         <script src="./src/js/script.js" type="module" defer></script>
@@ -19,14 +19,22 @@
         <div class="fixedLines">
             <div class="FixedHorizontalLeft">
                 <div class="lineItems">
-                    <p class="lineItemsElementLeft"><iconify-icon class="lineItemLeftIcon" width="30" height="30" icon="ion:logo-github"></iconify-icon></p>
-                </div>&#124;
+                    <p class="lineItemsElementLeft">
+                        <iconify-icon
+                            class="lineItemLeftIcon"
+                            width="30"
+                            height="30"
+                            icon="ion:logo-github"
+                        ></iconify-icon>
+                    </p>
+                </div>
+                &#124;
             </div>
-           
             <div class="FixedHorizontalRight">
                 <div class="lineItems">
                     <p class="lineItemsElementRight">simi.coding@gmail.com</p>
-                </div>&#8201; &#x2009; &ThinSpace; &#124;
+                </div>
+                &#8201; &#x2009; &ThinSpace; &#124;
             </div>
         </div>
         <div class="navbar nav-topReached">
@@ -38,7 +46,7 @@
                 </li>
                 <li class="nav-element">
                     <label for="Experiences" class="nav-label">02.</label>
-                    <p class="nav-text">Experiences</p>
+                    <p class="nav-text nav-exp">Experiences</p>
                 </li>
                 <li class="nav-element">
                     <label for="Projects" class="nav-label">03.</label>
@@ -70,7 +78,17 @@
                     <p class="pageHeader-horizontal"></p>
                 </div>
                 <div class="pageContent">
-                    <p class="amp-text">Hello! My name is Simon and I enjoy creating things for the internet. My interest in Development started back in 2019. I was 11 Years old and programmed my own discord bots with Python. It was a great experience getting good feedback from users of my bots. <br> <br> Fast forwards to today I learned how to develop deskopt applications with electron and websites using pwa. I know how to work in a team and create a better working enviroment. <br> <br> As a fullstack Developer I have worked with a few technologies recently: <br><br></p>
+                    <p class="amp-text">
+                        Hello! My name is Simon and I enjoy creating things for the internet. My interest in Development started back in 2019. I was 11 Years old and programmed my own discord bots with Python. It was a great experience getting good feedback from users of my bots.
+                        <br>
+                        <br>
+                        Fast forwards to today I learned how to develop deskopt applications with electron and websites using pwa. I know how to work in a team and create a better working enviroment.
+                        <br>
+                        <br>
+                        As a fullstack Developer I have worked with a few technologies recently:
+                        <br>
+                        <br>
+                    </p>
                     <ul class="amp-tech-list">
                         <li class="amp-tech-element">HTML</li>
                         <li class="amp-tech-element">CSS, SCSS</li>
@@ -82,25 +100,44 @@
                 </div>
             </div>
             <div class="experiencePage page">
-            <div class="pageHeader">
-                <label for="Experiences" class="pageHeader-label">02.</label>
-                <p class="pageHeader-name">Experience</p>
-                <p class="pageHeader-horizontal"></p>
-            </div>
-            <div class="pageContent">
-                <div class="exp-headings">
-                    
-                    <p class="exp-heading">Milrato</p>
-                    <p class="exp-heading">TimTube</p>
-                    <p class="exp-heading">Apple</p>
-                    <p class="exp-heading">Apple</p>
+                <div class="pageHeader">
+                    <label for="Experiences" class="pageHeader-label">02.</label>
+                    <p class="pageHeader-name">Experience</p>
+                    <p class="pageHeader-horizontal"></p>
                 </div>
-                <div class="exp-content">
-                    <p class="exp-Header">Apple</p>
-                    <p class="exp-text">I worked there Lorem Ipsum  Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                <div class="pageContent">
+                    <div class="exp-headings">
+                        <p class="exp-heading exp-selected">Milrato</p>
+                        <p class="exp-heading">TimTube</p>
+                        <p class="exp-heading">Other</p>
+                    </div>
+                    <div class="exp-content">
+                        <p class="exp-Header"></p>
+                        <p class="exp-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="projectPage page">
+                <div class="pageHeader">
+                    <label for="Projects" class="pageHeader-label">03.</label>
+                    <p class="pageHeader-name">Projects</p>
+                    <p class="pageHeader-horizontal"></p>
+                </div>
+                <div class="pageContent">
+                    <div class="projects">
+                        <div class="project">
+                            <div class="imgDevAcademy">
+                                <img src="./assets/img/pages/projects/developerAcademy/modBot.png" alt="IMG could not load." class="imgProjectDevAcademy">
+                                <img src="./assets/img/pages/projects/developerAcademy/utilityBot.png" alt="IMG could not load." class="imgProjectDevAcademy">
+                            </div>
+                            <div class="projectInfo">
+                                <div class="projectHeader"></div>
+                                <div class="projectDescription"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </body>
 </html>
