@@ -61,4 +61,14 @@ file: "style.css",
 folder: "pages/projectPage/",
 file: "style.css",
   },
+  // Contact Me Page
+  {
+folder:"pages/contactMePage/",
+file:"style.css",
+  },
+  // Footer
+  {
+    folder: "pages/footer/",
+    file: "style.css",
+  },
 ];

@@ -92,4 +92,21 @@ window.scrollTo({
 });
 }
 
+const projects = document.querySelector(".nav-proj");
+
+projects.addEventListener("click", function(){
+  window.scrollTo({
+    top: 1950,
+    behavior: "smooth",
+  });
+});
+
+const contactMe = document.querySelector(".nav-con");
+contactMe.addEventListener("click", function(){
+  window.scrollTo({
+    top: 2400,
+    behavior: "smooth",
+  });
+});
+
 

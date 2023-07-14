@@ -36,6 +36,13 @@ overflow-x: hidden;
     width: var(--ws-xxl); 
 }
 
+.contactMePage .pageHeader {
+    position: relative;
+    left: 25vw;
+  bottom: 5vh;
+    width: var(--ws-xxl);
+}
+
 .pageHeader-label {
 color: var(--lightBlueColor);
 font-family: "Inter", sans-serif;
@@ -74,6 +81,13 @@ font-weight: var(--fw-lg);
 }
 
 .projectPage .pageContent {
-    position: relative;top: 15vh;
+    position: relative;
+    top: 15vh;
     left: 15vw;
+}
+
+.contactMePage .pageContent {
+    position: relative;
+    bottom: 5vh;
+    left: 25vw;
 }
