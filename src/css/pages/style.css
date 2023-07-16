@@ -14,6 +14,10 @@ overflow-x: hidden;
     
 }
 
+.page:last-child {
+    height: 50vh;
+}
+
 .aboutMePage .pageHeader  {
     position: relative;
     left: 17.5vw;

@@ -77,6 +77,8 @@ height: 15vh;
     font-size: 1.1rem;
     transition: color 0.5s;
     top: var(--p-md-lg);
+    
+
 }
 
 .nav-element:hover {
