@@ -9,6 +9,10 @@ export const cssStructure = [
 folder: "styles/",
 file: "selection.css",
   },
+  {
+folder:"styles/",
+file:"a.css",
+  },
   // Root
   {
     folder: "root/",
