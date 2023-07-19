@@ -1,67 +1,287 @@
-@import '../../root/colors.css';
-@import '../../root/font.css';
-@import '../../root/sizes.css';
+@import "../../root/colors.css";
+@import "../../root/font.css";
+@import "../../root/sizes.css";
 
 .projects {
-    position: relative;
-    top: var(--p-lg);
+  position: relative;
+  top: var(--p-lg);
 }
 
-.imgDevAcademy{
- display: flex;
+.imgDevAcademy {
+  display: flex;
 }
 
 .imgProjectDevAcademy {
-    width: var(--ws-xxs);
-    height: var(--h-xxs);
+  width: var(--ws-xxs);
+  height: var(--h-xxs);
 
-    
-filter:grayscale(100%);
-transition: filter 0.3s ease-in-out;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
 }
 
-.imgProjectDevAcademy:nth-child(1){
-    border-top-left-radius: var(--br-md);
-    border-bottom-left-radius: var(--br-md);
-
+.imgProjectDevAcademy:nth-child(1) {
+  border-top-left-radius: var(--br-md);
+  border-bottom-left-radius: var(--br-md);
 }
 
-.imgProjectDevAcademy:nth-child(2){
-    border-top-right-radius: var(--br-md);
-    border-bottom-right-radius: var(--br-md);
+.imgProjectDevAcademy:nth-child(2) {
+  border-top-right-radius: var(--br-md);
+  border-bottom-right-radius: var(--br-md);
 }
 
 .imgProjectDevAcademy:hover {
-    filter: none;
+  filter: none;
 }
 
 .projectInfo {
-    position: relative;
-    bottom: 40vh;
-    left: 35vw;
-    height: 20vh;
+  position: relative;
+  bottom: 40vh;
+  left: 35vw;
+  height: 20vh;
 }
 
-.projectHeader{
-    color: var(--fontWhiteColor);
-    font-family: "Inter", sans-serif;
-    font-weight: var(--fw-xl);
-    font-size: var(--fz-xxl);
-    position: relative;
-    left: 20vw;
+.projectHeader {
+  color: var(--fontWhiteColor);
+  font-family: "Inter", sans-serif;
+  font-weight: var(--fw-xl);
+  font-size: var(--fz-xxl);
+  position: relative;
+  left: 20vw;
 }
 
 .projectDescription {
-    color: var(--fontWhiteColor);
-    font-family: "Inter", sans-serif;
-    font-weight: var(--fw-md);
-    font-size: var(--fz-lg);
-    width: var(--ws-lg);
-    background-color: var( --backgroundLightColor);
-    padding: var(--p-md);
-    border-radius: var(--br-md);
-    position: relative;
-    top: 5vh;
-    text-align: center;
-   
+  color: var(--fontWhiteColor);
+  font-family: "Inter", sans-serif;
+  font-weight: var(--fw-md);
+  font-size: var(--fz-lg);
+  width: var(--ws-lg);
+  background-color: var(--backgroundLightColor);
+  padding: var(--p-md);
+  border-radius: var(--br-md);
+  position: relative;
+  top: 5vh;
+  text-align: center;
 }
+
+/* Resposnive */
+/* Change Image and Box Fonts and Sizes */
+@media only screen and (max-width: 1150px) {
+  .imgProjectDevAcademy {
+    width: 300px;
+    height: 300px;
+  }
+  .projectInfo {
+    bottom: 30vh;
+    left: 40vw;
+    height: 30vh;
+  }
+
+  .projectHeader {
+    font-weight: var(--fw-lg);
+    font-size: var(--fz-xxl);
+    left: 20vw;
+  }
+
+  .projectDescription {
+    font-weight: var(--fw-md);
+    font-size: var(--fz-md);
+    width: var(--ws-md);
+    padding: var(--p-md);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .imgProjectDevAcademy {
+    width: 300px;
+    height: 300px;
+  }
+  .projectInfo {
+    bottom: 30vh;
+    left: 40vw;
+    height: 30vh;
+    position: relative;
+    top: 2.5vh;
+    left: 10%;
+  }
+
+  .projectHeader {
+    font-weight: var(--fw-md);
+    font-size: var(--fz-xl);
+    left: 12.5vw;
+  }
+
+  .projectDescription {
+    font-weight: var(--fw-sm);
+    font-size: var(--fz-md);
+    width: var(--ws-md);
+    padding: var(--p-md);
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .imgProjectDevAcademy {
+    width: 300px;
+    height: 300px;
+  }
+  .projectInfo {
+    bottom: 30vh;
+    height: 30vh;
+    position: relative;
+    top: 2.5vh;
+    left: 10%;
+  }
+
+  .projectHeader {
+    font-weight: var(--fw-lg);
+    font-size: var(--fz-xxl);
+    left: 12.5vw;
+  }
+
+  .projectDescription {
+    font-weight: var(--fw-sm);
+    font-size: var(--fz-md);
+    width: var(--ws-md);
+    padding: var(--p-md);
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .imgProjectDevAcademy {
+    width: 250px;
+    height: 250px;
+  }
+  .projectInfo {
+    bottom: 30vh;
+    height: 30vh;
+    position: relative;
+    top: 2.5vh;
+    left: 10%;
+  }
+
+  .projectHeader {
+    font-weight: var(--fw-lg);
+    font-size: var(--fz-xxl);
+    left: 12.5vw;
+  }
+
+  .projectDescription {
+    font-weight: var(--fw-sm);
+    font-size: var(--fz-md);
+    width: var(--ws-md);
+    padding: var(--p-md);
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .imgProjectDevAcademy {
+    width: 250px;
+    height: 250px;
+  }
+  .projectInfo {
+    bottom: 30vh;
+    height: 30vh;
+    position: relative;
+    top: 2.5vh;
+    left: 5%;
+  }
+
+  .projectHeader {
+    font-weight: var(--fw-lg);
+    font-size: var(--fz-xxl);
+    left: 15vw;
+  }
+
+  .projectDescription {
+    font-weight: var(--fw-sm);
+    font-size: var(--fz-md);
+    width: var(--ws-md);
+    padding: var(--p-md);
+  }
+}
+
+
+@media only screen and (max-width: 575px) {
+    .imgProjectDevAcademy {
+      width: 200px;
+      height: 200px;
+    }
+    .projectInfo {
+      bottom: 30vh;
+      height: 30vh;
+      position: relative;
+      top: 2.5vh;
+      left: 5%;
+    }
+  
+    .projectHeader {
+      font-weight: var(--fw-lg);
+      font-size: var(--fz-xxl);
+      left: 15vw;
+    }
+  
+    .projectDescription {
+      font-weight: var(--fw-sm);
+      font-size: var(--fz-sm);
+      width: var(--ws-sm);
+      padding: var(--p-md);
+    }
+  }
+
+  
+@media only screen and (max-width: 475px) {
+    .imgProjectDevAcademy {
+      width: 150px;
+      height: 150px;
+      position: relative;
+      left: 5vw;
+    }
+    .projectInfo {
+      bottom: 30vh;
+      height: 30vh;
+      position: relative;
+      top: 2.5vh;
+      left: -5%;
+    }
+  
+    .projectHeader {
+      font-weight: var(--fw-lg);
+      font-size: var(--fz-xxl);
+      left: 15vw;
+    }
+  
+    .projectDescription {
+      font-weight: var(--fw-sm);
+      font-size: var(--fz-sm);
+      width: var(--ws-sm);
+      padding: var(--p-md);
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .imgProjectDevAcademy {
+      width: 150px;
+      height: 150px;
+position: relative;
+left: -1vw;
+    }
+    .projectInfo {
+      bottom: 30vh;
+      height: 30vh;
+      position: relative;
+      top: 2.5vh;
+      left: -7.5%;
+    }
+  
+    .projectHeader {
+      font-weight: var(--fw-lg);
+      font-size: var(--fz-xxl);
+      left: 15vw;
+    }
+  
+    .projectDescription {
+      font-weight: var(--fw-sm);
+      font-size: var(--fz-xs);
+      width: var(--ws-xs);
+      padding: var(--p-md);
+    }
+  }

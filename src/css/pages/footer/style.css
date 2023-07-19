@@ -16,10 +16,20 @@
     font-family: "Inter", sans-serif;
 }
 
-.footer-line {
-    display: inline-flex;
-   border-top: 1px solid var(--fontWhiteColor);
-   width: var(--ws-xxs);
-   position: relative;
-   bottom: var(--p-xs);
+
+
+/* Responsive */
+/* Change Font */
+@media only screen and (max-width: 550px){
+    .footer-text {
+        font-size: var(--fz-md);
+        font-weight: var(--fw-md);
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .footer-text {
+        font-size: var(--fz-sm);
+        font-weight: var(--fw-sm);
+    }
 }
