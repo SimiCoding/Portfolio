@@ -3,7 +3,7 @@ export const cssStructure = [
   {
     folder: "",
     file: "style.css",
-  },
+  }, 
   // Styles
   {
 folder: "styles/",

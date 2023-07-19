@@ -95,3 +95,9 @@ font-weight: var(--fw-lg);
     bottom: 5vh;
     left: 25vw;
 }
+
+/* Responsive */
+/* CHange Positions and Font */
+@media only screen and (max-width: 200px){
+    
+}
