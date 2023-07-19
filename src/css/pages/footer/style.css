@@ -1,0 +1,25 @@
+@import '../../root/colors.css';
+@import '../../root/font.css';
+@import '../../root/sizes.css';
+
+
+ .footer {
+  position: relative;
+  top: var(--p-footer);
+   
+ }
+
+.footer-text {
+    color: var(--fontWhiteColor);
+    font-size: var(--fz-lg);
+    font-weight: var(--fw-lg);
+    font-family: "Inter", sans-serif;
+}
+
+.footer-line {
+    display: inline-flex;
+   border-top: 1px solid var(--fontWhiteColor);
+   width: var(--ws-xxs);
+   position: relative;
+   bottom: var(--p-xs);
+}

@@ -1,0 +1,88 @@
+@import '../../root/colors.css';
+@import '../../root/font.css';
+@import '../../root/sizes.css';
+
+
+.contactMe-text{
+   font-family: "Inter", sans-serif;
+   font-size: var(--fz-lg);
+   font-weight: var(--fw-md);
+   color: var(--fontWhiteColor);
+   width: var(--ws-lg);
+   padding-top: var(--p-md);
+}
+
+
+ 
+  
+  .contactMe-button-a {
+    position: relative;
+    text-align: center;
+    padding: var(--p-md) var(--p-lg);
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: var(--ws-extraSmall);
+    overflow: hidden;
+    border-radius: var(--br-xl);
+top: var(--p-lg);
+  }
+  
+  .contactMe-button-a span {
+    position: relative;
+    color: var(--importantWhiteColor);
+    font-size:var( --fz-xl);
+    font-family: Arial;
+    letter-spacing: var(----lh-extraSmall);
+    z-index: 1;
+  }
+  
+  .contactMe-button-a .liquid {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: var(--ws-extraSmall);
+    height: var(--h-extraSmall);
+    background: var(--liquidColor);
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+    transition: .5s;
+  }
+  
+  .contactMe-button-a .liquid::after,
+  .contactMe-button-a .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #000;
+  }
+  
+  .contactMe-button-a .liquid::before {
+    
+    border-radius: 45%;
+    background: rgba(20, 20, 20, 1);
+    animation: animate 5s linear infinite;
+  }
+  
+  .contactMe-button-a .liquid::after {
+    
+    border-radius: 40%;
+    background: rgba(20, 20, 20, .5);
+    animation: animate 10s linear infinite;
+  }
+  
+  .contactMe-button-a:hover .liquid{
+    top: -120px;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translate(-50%, -75%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -75%) rotate(360deg);
+    }
+  }

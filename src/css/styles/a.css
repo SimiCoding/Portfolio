@@ -1,0 +1,17 @@
+@import '../colors.css';
+@import '../root/font.css';
+@import '../root/sizes.css';
+
+
+a {
+    text-decoration-style: none;
+    text-decoration: none;
+    color:var(--fontWhiteColor);
+    transition: all 0.5s;
+
+    
+}
+
+a:hover {
+    color: var(--lightBlueColor);
+}

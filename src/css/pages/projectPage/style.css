@@ -1,0 +1,67 @@
+@import '../../root/colors.css';
+@import '../../root/font.css';
+@import '../../root/sizes.css';
+
+.projects {
+    position: relative;
+    top: var(--p-lg);
+}
+
+.imgDevAcademy{
+ display: flex;
+}
+
+.imgProjectDevAcademy {
+    width: var(--ws-xxs);
+    height: var(--h-xxs);
+
+    
+filter:grayscale(100%);
+transition: filter 0.3s ease-in-out;
+}
+
+.imgProjectDevAcademy:nth-child(1){
+    border-top-left-radius: var(--br-md);
+    border-bottom-left-radius: var(--br-md);
+
+}
+
+.imgProjectDevAcademy:nth-child(2){
+    border-top-right-radius: var(--br-md);
+    border-bottom-right-radius: var(--br-md);
+}
+
+.imgProjectDevAcademy:hover {
+    filter: none;
+}
+
+.projectInfo {
+    position: relative;
+    bottom: 40vh;
+    left: 35vw;
+    height: 20vh;
+}
+
+.projectHeader{
+    color: var(--fontWhiteColor);
+    font-family: "Inter", sans-serif;
+    font-weight: var(--fw-xl);
+    font-size: var(--fz-xxl);
+    position: relative;
+    left: 20vw;
+}
+
+.projectDescription {
+    color: var(--fontWhiteColor);
+    font-family: "Inter", sans-serif;
+    font-weight: var(--fw-md);
+    font-size: var(--fz-lg);
+    width: var(--ws-lg);
+    background-color: var( --backgroundLightColor);
+    padding: var(--p-md);
+    border-radius: var(--br-md);
+    position: relative;
+    top: 5vh;
+    text-align: center;
+   
+}
