@@ -48,6 +48,13 @@
     --p-extraLines: 105px;
     --p-nav: 700px;
     --p-nav-ipad: 400px;
+
+    --p-exp-sm: 0px;
+    --p-exp-md: -5px;
+    --p-exp-xl: 5px;
+
+    --p-exp-xxl: 15px;
+
    
     /* Border Radius */
     --br-xxs: 5px;

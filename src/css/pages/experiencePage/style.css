@@ -6,7 +6,6 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    left: var(--p-sm);
     text-align: center;
     
 }
@@ -21,7 +20,6 @@
     height: var(--h-30);
     text-align: center;
     transition: all 0.5s;
-  
 
 }
 .exp-heading:hover {
@@ -55,4 +53,85 @@
     font-weight: var(--fw-sm);
 font-size: var(--fz-xl);
 line-height: var(--lh-sm);
+}
+
+/* Responsive */
+/* Change Font and Positions */
+@media only screen and (max-width: 1150px){
+    .exp-headings {
+        right: 5px;
+        
+    }
+    
+    .exp-heading {
+        font-size: var(--fz-lg);
+        
+        width: var(--ws-100);
+        height: var(--h-30);
+      
+    
+    }
+    
+    
+    
+    .exp-content {
+        left: 10vw;
+        bottom: 12.5vh;
+        width: 40vw;
+        height: 20vh;
+    }
+    
+    .exp-Header {
+        font-size: var(--fz-xxl);
+        font-weight: var(--fw-lg);
+    }
+    .exp-text {
+        padding-top: var(--p-md);
+        font-family: "Inter", sans-serif;
+        font-weight: var(--fw-sm);
+    font-size: var(--fz-xl);
+    line-height: var(--lh-sm);
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .exp-headings {
+        right: 20px;
+        
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .exp-headings {
+        right: 40px;
+        
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .exp-headings {
+        right: 60px;
+        
+    }
+
+    .exp-text {
+        padding-top: var(--p-md);
+        font-weight: var(--fw-sm);
+    font-size: var(--fz-xxs);
+    line-height: var(--lh-xs);
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .exp-headings {
+        right: 80px;
+        
+    }
+
+    .exp-text {
+        padding-top: var(--p-md);
+        font-weight: var(--fw-sm);
+    font-size: var(--fz-xxs);
+    line-height: var(--lh-xs);
+    }
 }

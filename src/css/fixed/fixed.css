@@ -62,3 +62,12 @@ color: var(--lightBlueColor);
 transform: translateY(calc(0px - var(--p-xxs)));
 transition: all 0.5s;
 }
+
+/* Responsive */
+
+/* Hide Lines at Specific Screen Width */
+@media only screen and (max-width: 725px){
+    .fixedLines {
+        visibility: hidden;
+    }
+}

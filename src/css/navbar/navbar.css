@@ -113,6 +113,9 @@ height: 15vh;
 }
 }
 
+
+/* Responsive */
+
 /* Ipad */
 @media only screen and (max-width: 1000px){
     .nav-logo {

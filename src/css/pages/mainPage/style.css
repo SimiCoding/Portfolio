@@ -1,46 +1,145 @@
-@import '../../root/colors.css';
-@import '../../root/font.css';
-@import '../../root/sizes.css';
+@import "../../root/colors.css";
+@import "../../root/font.css";
+@import "../../root/sizes.css";
 
 .introduction {
-padding-top: var(--p-start);
-padding-left: 12.5vw;
+  padding-top: var(--p-start);
+  padding-left: 12.5vw;
 }
 
-.intro-label{
-    color: var(--lightBlueColor);
-    font-family: 'Inter', sans-serif;
-    
-    font-size: var(--fz-md);
-    line-height: var(--lh-md);
-    padding-top: var(--p-sm);
-    font-weight: var(--fw-sm)
+.intro-label {
+  color: var(--lightBlueColor);
+  font-family: "Inter", sans-serif;
+
+  font-size: var(--fz-md);
+  line-height: var(--lh-md);
+  padding-top: var(--p-sm);
+  font-weight: var(--fw-sm);
 }
 
 .intro-name {
-    color: var(--importantWhiteColor);
-    font-family: 'Inter', sans-serif;
-    font-size: var(--fz-heading);
-    line-height: var(--lh-xl);
-    padding-top: var(--p-sm);
-    font-weight: var(--fw-xxl);
+  color: var(--importantWhiteColor);
+  font-family: "Inter", sans-serif;
+  font-size: var(--fz-heading);
+  line-height: var(--lh-xl);
+  padding-top: var(--p-sm);
+  font-weight: var(--fw-xxl);
 }
 
 .intro-verdict {
-    color: var( --fontWhiteColor);
-    font-family: 'Inter', sans-serif;
-    font-size: var(--fz-heading);
-    line-height: var(--lh-xl);
-    padding-top: var(--p-sm);
-    font-weight: var(--fw-xxl);
+  color: var(--fontWhiteColor);
+  font-family: "Inter", sans-serif;
+  font-size: var(--fz-heading);
+  line-height: var(--lh-xl);
+  padding-top: var(--p-sm);
+  font-weight: var(--fw-xxl);
 }
 
 .intro-description {
-    color: var( --fontWhiteColor);
-    font-family: 'Inter', sans-serif;
-    font-size: var(--fz-lg);
-    width: var(--ws-lg);
-    line-height: var(--lh-sm);
-    padding-top: var(--p-sm);
-    font-weight: var(--fw-md);
+  color: var(--fontWhiteColor);
+  font-family: "Inter", sans-serif;
+  font-size: var(--fz-lg);
+  width: var(--ws-lg);
+  line-height: var(--lh-sm);
+  padding-top: var(--p-sm);
+  font-weight: var(--fw-md);
 }
+
+/* Responsive */
+
+/* Change Font Sizes */
+@media only screen and (max-width: 850px) {
+  .intro-label {
+    font-size: var(--fz-sm);
+    line-height: var(--lh-sm);
+  }
+  .intro-name {
+    font-size: var(--fz-heading-md);
+    line-height: var(--lh-lg);
+  padding-top: var(--p-md);
+
+  }
+  .intro-verdict {
+    font-size: var(--fz-heading-md);
+    line-height: var(--lh-lg);
+  padding-top: var(--p-md);
+
+  }
+  .intro-description {
+    font-size: var(--fz-md);
+    line-height: var(--lh-xs);
+    width: var(--ws-md);
+  padding-top: var(--p-md);
+
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .intro-label {
+    font-size: var(--fz-xs);
+    line-height: var(--lh-xs);
+  }
+  .intro-name {
+    font-size: var(--fz-heading-sm);
+    line-height: var(--lh-md);
+  padding-top: var(--p-lg);
+
+  }
+  .intro-verdict {
+    font-size: var(--fz-heading-sm);
+    line-height: var(--lh-md);
+  padding-top: var(--p-lg);
+
+  }
+  .intro-description {
+    font-size: var(--fz-sm);
+    line-height: var(--lh-xs);
+    width: var(--ws-sm);
+  padding-top: var(--p-xl);
+
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .intro-label {
+    font-size: var(--fz-xs);
+    line-height: var(--lh-xs);
+    
+  }
+  .intro-name {
+    font-size: var(--fz-heading-sm);
+    line-height: var(--lh-md);
+  }
+  .intro-verdict {
+    font-size: var(--fz-heading-sm);
+    line-height: var(--lh-md);
+  }
+  .intro-description {
+    font-size: var(--fz-xs);
+    line-height: var(--lh-xs);
+    width: var(--ws-xs);
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .intro-label {
+      font-size: var(--fz-xxs);
+      line-height: var(--lh-xs);
+      
+    }
+    .intro-name {
+      font-size: var(--fz-pageHeader);
+      line-height: var(--lh-md);
+    }
+    .intro-verdict {
+      font-size: var(--fz-pageHeader);
+      line-height: var(--lh-md);
+    }
+    .intro-description {
+      font-size: var(--fz-xs);
+      line-height: var(--lh-xs);
+      width: var(--ws-xxs);
+    }
+  }
+  
