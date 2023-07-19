@@ -57,6 +57,11 @@ height: 15vh;
     top: calc(0px - var(--p-md));
     
 }
+.nav-elements {
+    position: relative;
+    left: 50%;
+}
+
 
 .nav-elements, .nav-element {
     display: inline-flex;
@@ -66,18 +71,19 @@ height: 15vh;
     padding-right: var(--p-xs);
     color: var(--lightBlueColor);
     font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
 }
 
 .nav-element {
     position: relative;
-    left: var(--p-nav);
+    
     margin-left: var(--p-md-lg);
     animation-duration: 0.3s;
     color: var(--fontWhiteColor);
     font-size: 1.1rem;
     transition: color 0.5s;
     top: var(--p-md-lg);
-    
+
 
 }
 
@@ -106,3 +112,53 @@ height: 15vh;
     transform: translateY(0%);
 }
 }
+
+/* Ipad */
+@media only screen and (max-width: 1000px){
+    .nav-logo {
+        width: 75px;
+height: 75px;
+        position: fixed;
+        top: calc(0px - var(--p-md));
+        
+    }
+
+   .nav-elements {
+    left: 30%;
+   }
+
+   .nav-element {
+    font-size: 1rem;
+
+   }
+
+   .nav-label {
+    font-size: 1rem;
+   }
+}
+
+/* Hide Navbar */
+@media only screen and (max-width: 750px){
+    .nav-elements {
+     visibility: hidden;
+    }
+}
+
+/* Fix Navbar Showing Up Wrong*/
+@media only screen and (max-width: 1050px){
+.nav-elements{
+    left: 35%;
+}
+}
+
+@media only screen and (max-width: 880px){
+    .nav-elements{
+        left: 30%;
+    }
+    }
+
+@media only screen and (max-width: 810px){
+    .nav-elements{
+        left: 25%;
+    }
+    }
