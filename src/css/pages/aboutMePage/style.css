@@ -53,6 +53,10 @@ display: grid;
         width: var(--ws-sm);
         line-height: var(--lh-sm);
     }
+
+    body,html::-webkit-scrollbar-thumb {
+      background-color:transparent;
+    }
     
     .amp-tech-list {
     position: relative;
