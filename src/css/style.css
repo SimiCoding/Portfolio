@@ -4,3 +4,19 @@ html {
   margin: 0;
   box-sizing: border-box;
 }
+
+body::-webkit-scrollbar {
+  width: 0!important;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: transparent; /* Optional: just make scrollbar thumb invisible */
+}
+
+@-moz-document url-prefix() {
+body{
+  scrollbar-width: none;
+  scrollbar-color: transparent;
+}
+}
